@@ -1,0 +1,30 @@
+---
+description: Read from and write to the user's Adapter workspace (the "adapter" MCP server) as long-term memory across sessions.
+alwaysApply: true
+---
+
+The `adapter` MCP server is the user's Adapter workspace: a persistent knowledge base you read from and write to.
+
+## Recall
+Before acting on something that may have prior context, such as a past decision, a convention, or an earlier problem, query the workspace instead of guessing:
+
+- `ask` for a synthesized answer.
+- `search_knowledge` for matching records. Scope with `metadata: {"repo": "<name>"}` when the question is about the current project.
+- `recall_remembered` to list recent saved items.
+
+Query when it is relevant, not on every message. An empty workspace is normal for a new project; proceed and write results back as you go.
+
+## Remember
+At the end of a unit of work, save what should outlive the session with `remember`. Use the right `kind`:
+
+- `decision`: what was decided and why, with the alternatives rejected.
+- `task_outcome`: what changed, where, and how it was verified.
+- `fact`: a durable convention, constraint, or preference no connected source holds.
+- `summary` or `document`: synthesis or artifacts worth keeping.
+
+Set `metadata: {"repo": "<name>"}` and `tags: ["repo:<name>"]` so later sessions can scope to the project, a stable `external_id` such as `<repo>/<topic>` so an update replaces the item instead of duplicating it, and `agent: "cursor"`. Call `recall_remembered` first when an item may already exist.
+
+Do not save transient discussion, anything already in Adapter, secrets, or file contents that live in the repository.
+
+## Data sources
+Connections such as Slack, GitHub, Notion, and Gmail are managed in the Adapter console. If the user wants to add one, point them there.

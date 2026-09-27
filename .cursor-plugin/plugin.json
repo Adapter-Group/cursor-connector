@@ -1,0 +1,24 @@
+{
+  "name": "adapter-mind",
+  "version": "0.1.0",
+  "description": "A mind for Cursor, backed by your Adapter workspace. Recalls context before you work and saves results as you go.",
+  "author": {
+    "name": "Adapter",
+    "email": "support@adapter.com"
+  },
+  "homepage": "https://adapter.com",
+  "repository": "https://github.com/Adapter-Group/cursor-connector",
+  "license": "MIT",
+  "logo": "./logo.svg",
+  "keywords": [
+    "memory",
+    "knowledge",
+    "context",
+    "mcp",
+    "adapter"
+  ],
+  "rules": "./rules",
+  "skills": "./skills",
+  "commands": "./commands",
+  "mcpServers": "./mcp.json"
+}

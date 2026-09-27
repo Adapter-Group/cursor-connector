@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "adapter": {
+      "url": "https://api.adapter.com/v1/mcp/mind/http",
+      "auth": {
+        "CLIENT_ID": "cursor",
+        "scopes": ["mcp:read", "mcp:write", "offline_access"]
+      }
+    }
+  }
+}
