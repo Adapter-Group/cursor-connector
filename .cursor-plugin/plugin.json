@@ -1,7 +1,7 @@
 {
   "name": "adapter-mind",
-  "version": "0.1.0",
-  "description": "A mind for Cursor, backed by your Adapter workspace. Recalls context before you work and saves results as you go.",
+  "version": "0.1.1",
+  "description": "Give your bots a mind that already knows your world. Adapter Mind never stops studying your email, chat, calendar, docs, tickets and all your other favorite apps, even the ones you built, so it learns how everything connects and knows what matters before anyone thinks to ask. Answers are always cited and cost a fraction of the tokens to obtain. What one mind learns, every Cursor session, Grok Bot and custom app can confidently recall.",
   "author": {
     "name": "Adapter",
     "email": "support@adapter.com"
