@@ -1,7 +1,7 @@
 {
   "name": "adapter-mind",
-  "version": "0.1.1",
-  "description": "Give your bots a mind that already knows your world. Adapter Mind never stops studying your email, chat, calendar, docs, tickets and all your other favorite apps, even the ones you built, so it learns how everything connects and knows what matters before anyone thinks to ask. Answers are always cited and cost a fraction of the tokens to obtain. What one mind learns, every Cursor session, Grok Bot and custom app can confidently recall.",
+  "version": "0.1.2",
+  "description": "A Mind for Grok Bot and Grok Build that learns the nuances of your world because it thinks not a file system that recalls because it memorizes. Adapter Mind goes beyond the concepts of memory and context with active cognition built for industrial scale, reliability and trust while remaining full-self-driving. Empowering Grok Bot, Grok Build and your own applications before anyone even asks so tokens go to where they matter most: advancing your mission.",
   "author": {
     "name": "Adapter",
     "email": "support@adapter.com"
