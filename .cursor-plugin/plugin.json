@@ -1,6 +1,6 @@
 {
   "name": "adapter-mind",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Adapter Mind studies and understands your digital world, so every Bot or build you launch with Grok answers with the full depth of your knowledge. Every answer is grounded and cited, for a fraction of the tokens.",
   "author": {
     "name": "Adapter",
