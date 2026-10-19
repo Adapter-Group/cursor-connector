@@ -1,7 +1,7 @@
 {
   "name": "adapter-mind",
   "version": "0.1.3",
-  "description": "Adapter Mind studies and understands your digital world, so every Bot or build you launch with Grok answers with the full depth of your knowledge. Every answer is grounded and cited, for a fraction of the tokens.",
+  "description": "Adapter Mind brings your world, and the tribal knowledge contained within it, to Grok Bot and Grok Build in high resolution, before you even ask. Mind does the work before the work — the ETL of your past, the live processing of your present, and forecasting into the future — so every token Grok generates produces the highest value for you.",
   "author": {
     "name": "Adapter",
     "email": "support@adapter.com"
